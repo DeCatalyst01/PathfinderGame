@@ -14,8 +14,11 @@ This is a simple grid-based adventure game where the player (denoted by 'P') nav
 
 ## How to Run
 **1.** Clone the repository or copy the code to your local machine.
+
 **2.** Open a terminal or command prompt.
+
 **3.** Navigate to the directory containing the script.
+
 **4.** Run the Python script using the following command:
 ```bash 
 python ThePathfinderGame.py
@@ -23,22 +26,28 @@ python ThePathfinderGame.py
 
 ## Gameplay
 **1.** The game board is displayed as a grid of characters. The starting point ('S') is at the top-left, and the target ('T') is at the bottom-right.
+
 **2.** The player starts at position 'P'. Move the player by entering one of the following directions:
-- up to move the player up.
-- down to move the player down.
-- left to move the player left.
-- right to move the player right.
+- 'up' to move the player up.
+- 'down' to move the player down.
+- 'left' to move the player left.
+- 'right' to move the player right.
+  
 **3.** The game will alert the player if they try to move out of bounds or if they collide with an obstacle.
+  
 **4.** The player wins by reaching the target ('T').
 
 ## Code Explanation
 **create_board(size, num_of_obstacles)**
+
 Generates a board of size NxN, placing obstacles randomly. The start ('S') is placed at the top-left corner, and the target ('T') is placed at the bottom-right corner. The player's initial position is also marked as 'P'.
 
 **move_player(board, position, direction)**
+
 Handles the player's movement based on the direction input ('up', 'down', 'left', 'right'). It checks for out-of-bound moves, obstacle collisions, and win conditions.
 
 **display_board(board)**
+
 Displays the current state of the board to the player, showing the player’s current position, obstacles, and the target.
 
 ## Example
