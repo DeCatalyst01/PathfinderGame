@@ -18,7 +18,7 @@ This is a simple grid-based adventure game where the player (denoted by 'P') nav
 **3.** Navigate to the directory containing the script.
 **4.** Run the Python script using the following command:
 ```bash 
-python PathfinderGame.py
+python ThePathfinderGame.py
 ```
 
 ## Gameplay
