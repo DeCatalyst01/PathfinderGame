@@ -1,4 +1,4 @@
-# PathfinderGame
+# ThePathfinderGame
 ## Description
 This is a simple grid-based adventure game where the player (denoted by 'P') navigates through a grid to reach the target ('T'). The player needs to avoid obstacles (denoted by '#') placed randomly on the board. The objective is to start from the top-left corner (denoted by 'S') and reach the bottom-right corner (denoted by 'T'). The game ends when the player either collides with an obstacle or reaches the target.
 ## Features
